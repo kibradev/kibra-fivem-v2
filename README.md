@@ -7,12 +7,12 @@ Bu kaynak, geliştirmeye açık bir kaynaktır. Ve düzenli olarak güncellenece
 
 # Gerekliler (Requirements)
 
-- npm i discord.js
-- npm i mysql 
-- npm i mysql-async-simple
-- npm i chalk
-- npm i moment
-- npm i fs
+- npm install discord.js
+- npm install mysql 
+- npm install mysql-async-simple
+- npm install chalk
+- npm install moment
+- npm install fs
 
 ![Cadillac Sedans](https://cdn.discordapp.com/attachments/824176816884940803/825883210969907200/deneme.PNG)
 ![Cadillac Sedans](https://cdn.discordapp.com/attachments/824663711007375361/825881688663261195/denem2.PNG)
