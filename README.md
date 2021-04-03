@@ -5,6 +5,10 @@ Discord üzerinden FiveM sunucunuzu yönetmenize olanak sağlar.
 
 Bu kaynak, geliştirmeye açık bir kaynaktır. Ve düzenli olarak güncellenecektir.
 
+# 3 Nisan Güncellemesi
+- IP Gösterme Komutu Eklendi.
+- Aktif ve bakım yazılarına etiket atma eklendi.
+
 # Gerekliler (Requirements)
 
 - npm install discord.js
