@@ -124,6 +124,12 @@ client.reload = command => {
     }
   });
 
+  client.on('message', msg => {
+    if (msg.content === prefix + config.server_aktif_command) {
+      msg.channel.send("@here");
+        }
+  });
+
   client.on('message', message => {
     if (message.content === prefix + config.server_bakım_command) {
       const embed = new Discord.MessageEmbed()
@@ -133,6 +139,26 @@ client.reload = command => {
         .setImage(config.server_bakım_gif)
         .setFooter('EMR-KBR');
       message.channel.send(embed);
+    }
+  });
+
+  client.on('message', message => {
+    if (message.content === prefix + config.ip_command) {
+      const embed = new Discord.MessageEmbed()
+        .setAuthor(config.fivem_server_name, config.fivem_server_logo)
+        .setTitle(config.ip_baslik)
+        .setColor(config.ip_color)
+        .addField(config.ip_message,config.fivem_server_ip)
+        .addField(config.ts_ip,config.fivem_teamspeak_ip)
+        .setImage(config.fivem_server_logo)
+        .setFooter('EMR-KBR');
+      message.channel.send(embed);
+    }
+  });
+
+  client.on('message', msg => {
+    if (msg.content === prefix + config.server_bakım_command) {
+      msg.channel.send("@here");
     }
   });
 
