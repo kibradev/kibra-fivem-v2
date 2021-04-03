@@ -1,10 +1,10 @@
 module.exports = {
   // Bot Bilgileri
 
-    "token": "ODE5MjQzMDY0MTIzODUwODAy.YEjxjw.v20VwJ9j8cnHO5JqwDvjduDoF50", // Discord Botunuzun Tokenini Girin.
+    "token": "ODE5MjQzMDY0MTIzODUwODAy.YEjxjw.wA56KSxaagDABVaEcJOarNQjhZo", // Discord Botunuzun Tokenini Girin.
     "author": "765894055820263435", // Botun Sahibi ID
     "prefix": ".", // Prefix Belirleyin.
-    "oynuyor": "NoNameRoleplay", // Bot Oynuyor Kısmı
+    "oynuyor": "Outraw Roleplay", // Bot Oynuyor Kısmı
     "bot_durum": "PLAYING", // WATCHING, PLAYING
     
 
@@ -22,7 +22,7 @@ module.exports = {
     "mysql_host": "localhost", // Host
     "mysql_user": "root", // User
     "mysql_pass": "", // DB Password Localhost üzerinde iseniz default olarak şifre yoktur.
-    "mysql_dbname": "hurt", // Database adı
+    "mysql_dbname": "es_extended", // Database adı
 
 
 
@@ -63,5 +63,13 @@ module.exports = {
    "fivem_error_header": "NNP Hata Bildiri", // Hata Bildiri Mesaj Başlık
    "fivem_error_description": "Sunucumuzda bulduğunuz hata iletildi. Bildirdiğiniz için teşekkür ederiz.", // Hata Bildiri Mesajı
    "fivem_error_dsc2": "Yetkililerimiz size özelden geri dönüş sağlayacaktır.", // Hata bildiri mesajı 2
-   "fivem_error_channel": "827494024557625374" // Hata Bildiri Kanal ID sini yazın.
+   "fivem_error_channel": "827494024557625374", // Hata Bildiri Kanal ID sini yazın.
+
+
+   // IP Talep Bildirimi
+   "ip_command": "ipgoster",
+   "ip_message": "Sunucu IP:",
+   "ts_ip": "Teamspeak IP",
+   "ip_baslik": "NoNameRP IP Adresleri",
+   "ip_color": "0x000000"
 };
